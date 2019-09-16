@@ -1,13 +1,21 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-//import { RecuperaSenhaComponent } from './recupera-senha/recupera-senha.component';
 
-
+import { RecuperaSenhaComponent } from './components';
+import { RecuperaSenhaService } from './services';
 
 @NgModule({
-  //declarations: [RecuperaSenhaComponent],
+  declarations: [
+    RecuperaSenhaComponent
+  ],
+  exports: [
+    RecuperaSenhaComponent
+  ],
   imports: [
     CommonModule
+  ],
+  providers: [
+    RecuperaSenhaService
   ]
 })
 export class RecuperaSenhaModule { }

@@ -4,19 +4,20 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginModule } from './login';
-/*import { HomeComponent } from './components/home/home.component';
-import { RecuperaSenhaComponent } from './recuperaSenha/recupera-senha/recupera-senha.component';*/
+import { HomeModule } from './home';
+import { RecuperaSenhaModule } from './recupera-senha';
+import { CadastroModule } from './cadastro';
 @NgModule({
   declarations: [
     AppComponent,
-    /*HomeComponent,
-    /RecuperaSenhaComponent,*/
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    LoginModule
-    /*PortifolioComponent*/
+    LoginModule,
+    HomeModule,
+    RecuperaSenhaModule,
+    CadastroModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
