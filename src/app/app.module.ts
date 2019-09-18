@@ -4,9 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { LoginModule } from './login';
-import { HomeModule } from './home';
-import { RecuperaSenhaModule } from './recupera-senha';
-import { CadastroModule } from './cadastro';
 @NgModule({
   declarations: [
     AppComponent,
@@ -14,9 +11,6 @@ import { CadastroModule } from './cadastro';
   imports: [
     BrowserModule,
     LoginModule,
-    HomeModule,
-    RecuperaSenhaModule,
-    CadastroModule,
     AppRoutingModule,
   ],
   providers: [],
