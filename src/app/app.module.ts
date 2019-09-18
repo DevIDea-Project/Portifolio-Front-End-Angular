@@ -13,11 +13,11 @@ import { CadastroModule } from './cadastro';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
     LoginModule,
     HomeModule,
     RecuperaSenhaModule,
     CadastroModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
