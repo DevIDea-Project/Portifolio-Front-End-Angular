@@ -1,11 +1,11 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PortifolioComponent } from './portifolio';
 
-
-
-const routes: Routes = [
-  { path: 'portifolio', component: PortifolioComponent },
+export const routes: Routes = [
+  { path: '',
+    redirectTo: '/',
+    pathMatch: 'full',
+  },
 ];
 
 @NgModule({
