@@ -1,2 +1,39 @@
-<p>home works!</p>
-<h2> Da o boga </h2>
+<header>
+  <section>
+    <div class="header">
+      <input type="checkbox" id="control-nav" />
+      <label for="control-nav" class="control-nav"></label>
+      <label for="control-nav" class="control-nav-close"></label>
+      <img id="DevLogo" src="~assets/loguinho01.png" />
+      <nav class="float-r">
+        <ul class="list-auto">
+          <li id="NomeHelp">
+            <div class="container">
+              <div class="row justify-left q-mr-sm">
+                <div class="col-2"></div>
+              </div>
+            </div>
+          </li>
+          <li>
+            <router-link class="item-menu" :to="{ name: 'Inicio' }">Inicio</router-link>
+          </li>
+          <li>
+            <router-link class="item-menu" :to="{ name: 'quemE' }">Quem é Bruno</router-link>
+          </li>
+          <li>
+            <router-link class="item-menu" :to="{ name: 'projetos' }">Projetos Recentes</router-link>
+          </li>
+          <li>
+            <router-link class="item-menu" :to="{ name: 'curriculo' }">Curriculo</router-link>
+          </li>
+          <li>
+            <router-link class="item-menu" :to="{ name: 'informeAqui' }">Informe Aqui</router-link>
+          </li>
+          <li>
+            <router-link class="item-menu" :to="{ name: 'gitHub' }">GitHub</router-link>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </section>
+</header>

@@ -1,0 +1,153 @@
+.header {
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    background: #054F77;
+    z-index: 2;
+  }
+html, body {height:100%;}
+
+
+footer {
+    position:absolute;
+    bottom: 0;
+    width:100%;
+    height: 650px;
+}
+
+section {
+    background:#024B80;
+    height: 500px;
+}
+
+#DevLogo{
+ width: 110px;
+ height: 45px;
+ position: fixed;
+ left: 10pt;
+ z-index: 100;
+ top: 10px;
+  
+}
+
+#topo{
+    height: 10px;
+    opacity : 1.0;
+    /*background-image: url("~assets/note01.jpg");*/
+}
+
+section #Cafe{
+    color: #000000;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+section #Quem{
+    color: #000000;
+    font-size: 65px;
+    text-align: center;
+    font-family: 'Arial';
+}
+
+section #ImgBanner{
+    opacity : 0.5;
+}
+
+section #CAFe{
+    color: #ffffff;
+    /*color: #FF6961;
+    //color:#803430;
+    //font-family: 'Arial Rounded MT';*/
+    font-family: 'Ananda';
+}
+
+section #CafTxt{
+    color: #ffffff;
+    font-family: 'Arial Rounded MT';
+}
+
+.btn-menu {
+    background: #054F77;
+    color: #fff;
+  }
+
+  .list-full,
+  .list-full li,
+  .list-auto,
+  .list-auto li {
+    width: 100%;
+    float: left;
+    display: block;
+    position: relative;
+  }
+
+  .list-auto,
+  .list-auto li {
+    width: auto;
+  }
+
+  /* floats */
+  .float-l {
+    float: left;
+  }
+
+  .float-r {
+    float: right;
+  }
+
+  .header {
+    min-height: 60px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    border-bottom: 1px solid #ccc;
+    background: #054F77;
+    z-index: 2;
+  }
+
+  .header h1 {
+    padding: 10px 0 0 10px;
+  }
+
+  .header h1 a {
+    color: #333;
+  }
+
+  .header ul {
+    padding: 15px 10px 0 0;
+  }
+
+  .header li {
+    border-left: 1px solid #ccc;
+  }
+
+  .header li:first-child {
+    border: none;
+  }
+
+  .header li .item-menu {
+    display: block;
+    padding: 0 10px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 30px;
+    text-decoration: none;
+    -webkit-transition: all 300ms ease;
+    transition: all 300ms ease;
+  }
+
+  .header li .item-menu:hover {
+    color: #333;
+  }
+
+  input#control-nav {
+    visibility: hidden;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+  }
