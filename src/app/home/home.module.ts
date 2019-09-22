@@ -1,10 +1,12 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 import { HomeComponent } from './components';
 import { HomeService } from './services';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeRoutingComponent } from './home-routing.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { HomeRoutingComponent } from './home-routing.component';
   ],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
+    RouterModule
   ],
   providers: [
     HomeService
