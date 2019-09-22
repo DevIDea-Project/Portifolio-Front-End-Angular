@@ -4,7 +4,7 @@
       <input type="checkbox" id="control-nav" />
       <label for="control-nav" class="control-nav"></label>
       <label for="control-nav" class="control-nav-close"></label>
-      <img id="DevLogo" src="~assets/loguinho01.png" />
+      <img id="DevLogo" src="assets/loguinho01.png"/>
       <nav class="float-r">
         <ul class="list-auto">
           <li id="NomeHelp">
@@ -15,22 +15,22 @@
             </div>
           </li>
           <li>
-            <router-link class="item-menu" :to="{ name: 'Inicio' }">Inicio</router-link>
+            <router-outlet class="item-menu" :to="{ name: 'Inicio' }">Inicio</router-outlet>
           </li>
           <li>
-            <router-link class="item-menu" :to="{ name: 'quemE' }">Quem é Bruno</router-link>
+            <router-outlet class="item-menu" :to="{ name: 'quemE' }">Quem é Bruno</router-outlet>
           </li>
           <li>
-            <router-link class="item-menu" :to="{ name: 'projetos' }">Projetos Recentes</router-link>
+            <router-outlet class="item-menu" :to="{ name: 'projetos' }">Projetos Recentes</router-outlet>
           </li>
           <li>
-            <router-link class="item-menu" :to="{ name: 'curriculo' }">Curriculo</router-link>
+            <router-outlet class="item-menu" :to="{ name: 'curriculo' }">Curriculo</router-outlet>
           </li>
           <li>
-            <router-link class="item-menu" :to="{ name: 'informeAqui' }">Informe Aqui</router-link>
+            <router-outlet class="item-menu" :to="{ name: 'informeAqui' }">Informe Aqui</router-outlet>
           </li>
           <li>
-            <router-link class="item-menu" :to="{ name: 'gitHub' }">GitHub</router-link>
+            <router-outlet class="item-menu" :to="{ name: 'gitHub' }">GitHub</router-outlet>
           </li>
         </ul>
       </nav>

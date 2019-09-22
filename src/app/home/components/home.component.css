@@ -139,6 +139,7 @@ section #CafTxt{
     text-decoration: none;
     -webkit-transition: all 300ms ease;
     transition: all 300ms ease;
+    cursor: pointer;
   }
 
   .header li .item-menu:hover {
@@ -151,3 +152,43 @@ section #CafTxt{
     left: -9999px;
     opacity: 0;
   }
+
+@media (max-width: 640px) {
+
+#topico1 {
+/*width: 100%;*/
+text-align: center;
+/*col-5;*/
+}
+
+#menu {
+
+display: none;
+}
+
+.menu {
+display: inline;
+width: 100%;
+height: 50px;
+font-family: 'Arial Rounded MT';
+}
+
+.menu {
+list-style: none;
+position: relative;
+}
+
+.menu ul li {
+width: 150px;
+floot: right;
+}
+
+.menu {
+margin-top: 15px;
+margin-left: 100%;
+transition: all .6s;
+background: #054F77;
+color: #fff;
+}
+}
+
