@@ -15,13 +15,13 @@ overflow:hidden;
   top: 0;
   right: 0;
   left: 0;
-  border-bottom: 1px solid #ccc;
-  background: #054F77;
+  /*border-bottom: 1px solid #ccc;*/
+  /*background: #054F77;*/
+  background: linear-gradient(120deg, #EE7752, #E73C7E);
   z-index: 2;
 }
 
-html,
-body {
+html, body {
   height: 100%;
 }
 
@@ -34,7 +34,9 @@ footer {
 }
 
 section {
-  background: #024B80;
+  /*background: #024B80;
+  background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A6D5, #23D5AB);*/
+  background: linear-gradient(120deg, #EE7752, #E73C7E);
   height: 500px;
 }
 
@@ -88,7 +90,8 @@ section #CafTxt {
 }
 
 .btn-menu {
-  background: #054F77;
+  /*background: #054F77;*/
+  background: linear-gradient(120deg, #EE7752, #E73C7E);
   color: #fff;
 }
 
@@ -123,7 +126,8 @@ section #CafTxt {
   right: 0;
   left: 0;
   border-bottom: 1px solid #ccc;
-  background: #054F77;
+  /*background: #054F77;*/
+  background: linear-gradient(120deg, #EE7752, #E73C7E);
   z-index: 2;
 }
 

@@ -15,6 +15,9 @@
             </div>
           </li>
           <li>
+            <router-outlet class="item-menu" :to="{ name: 'Inicio' }"></router-outlet>
+          </li>
+          <li>
             <router-outlet class="item-menu" :to="{ name: 'Inicio' }">Inicio</router-outlet>
           </li>
           <li>
@@ -38,8 +41,8 @@
     <div class="container">
       <div class="row justify-center q-mb-xl">
         <div class="col-12">
-          <img id="ImgBanner" slot="media" src="assets/note02.jpg" />
-          <h1 id="CAFe">Portifolio DevIDe></h1>
+          <!--<img id="ImgBanner" slot="media" src="assets/note02.jpg" />
+          <h1 id="CAFe">Portifolio DevIDe></h1>-->
         </div>
       </div>
     </div>
