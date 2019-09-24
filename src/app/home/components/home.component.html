@@ -1,60 +1,70 @@
-<header>
-  <section>
-    <div class="header">
-      <input type="checkbox" id="control-nav" />
-      <label for="control-nav" class="control-nav"></label>
-      <label for="control-nav" class="control-nav-close"></label>
-      <img id="DevLogo" src="assets/loguinho01.png"/>
-      <nav class="float-r">
-        <ul class="list-auto">
-          <li id="NomeHelp">
-            <div class="container">
-              <div class="row justify-left q-mr-sm">
-                <div class="col-2"></div>
-              </div>
+<section>
+  <div class="header">
+    <input type="checkbox" id="control-nav" />
+    <label for="control-nav" class="control-nav"></label>
+    <label for="control-nav" class="control-nav-close"></label>
+    <img id="DevLogo" src="assets/loguinho01.png"/>
+    <nav class="float-r">
+      <ul class="list-auto">
+        <li id="NomeHelp">
+          <div class="container">
+            <div class="row justify-center q-mr-sm">
+              <div class="col-2"></div>
             </div>
-          </li>
-          <li>
-            <router-outlet class="item-menu" :to="{ name: 'Inicio' }"></router-outlet>
-          </li>
-          <li>
-            <router-outlet class="item-menu" :to="{ name: 'Inicio' }">Inicio</router-outlet>
-          </li>
-          <li>
-            <router-outlet class="item-menu" :to="{ name: 'quemE' }">Quem é Bruno</router-outlet>
-          </li>
-          <li>
-            <router-outlet class="item-menu" :to="{ name: 'projetos' }">Projetos Recentes</router-outlet>
-          </li>
-          <li>
-            <router-outlet class="item-menu" :to="{ name: 'curriculo' }">Curriculo</router-outlet>
-          </li>
-          <li>
-            <router-outlet class="item-menu" :to="{ name: 'informeAqui' }">Informe Aqui</router-outlet>
-          </li>
-          <li>
-            <router-outlet class="item-menu" :to="{ name: 'gitHub' }">GitHub</router-outlet>
-          </li>
-        </ul>
-      </nav>
-    </div>
-    <div class="container">
-      <div class="row justify-center">
-        <div class="col-12">
-          <!--<img id="ImgBanner" slot="media" src="assets/computer.jpg" />-->
-          <!--<h1 id="CAFe">Portifolio DevIDe></h1>-->
-        </div>
+          </div>
+        </li>
+        <li>
+          <router-outlet class="item-menu" :to="{ name: 'Inicio' }"></router-outlet>
+        </li>
+        <li>
+          <router-outlet class="item-menu" :to="{ name: 'Inicio' }">Inicio</router-outlet>
+        </li>
+        <li>
+          <router-outlet class="item-menu" :to="{ name: 'quemE' }">Quem é Bruno</router-outlet>
+        </li>
+        <li>
+          <router-outlet class="item-menu" :to="{ name: 'projetos' }">Projetos Recentes</router-outlet>
+        </li>
+        <li>
+          <router-outlet class="item-menu" :to="{ name: 'curriculo' }">Curriculo</router-outlet>
+        </li>
+        <li>
+          <router-outlet class="item-menu" :to="{ name: 'informeAqui' }">Informe Aqui</router-outlet>
+        </li>
+        <li>
+          <router-outlet class="item-menu" :to="{ name: 'gitHub' }">GitHub</router-outlet>
+        </li>
+      </ul>
+    </nav>
+  </div>
+  <!--<div class="container">
+    <div class="row justify-center">
+      <div class="col-12">
+        <img id="ImgBanner" slot="media" src="assets/computer.jpg" />-->
+        <!--<h1 id="CAFe">Portifolio DevIDe></h1>
       </div>
     </div>
-  </section>
-  <header>
+  </div>-->
+</section>
+<header>
+  <div class="quem">
     <div class="container">
       <div class="row">
         <div class="col-12">
           <h1> Quem é Bruno ? </h1>
-
+          <p id="paragrafo" style="text-align: left">
+          Graduando em Análise e Desenvolvimento de Sistemas, cursando o quarto período.
+          Atualmente trabalho na Universidade de Pernambuco - UPE no NCTI, na parte de Tecnologia, dando
+          manutenção aos sites e implementando funcionalidades. Lido muito bem com as adversidades,
+          problemas, contratempos, sou comunicativo e tenho muito vontade em crescer e aprender.
+          O que mais me encanta na área de tecnologia é saber que sempre você tem um novo desafio,
+          assim podendo ser uma pessoa proativa e em busca de novas metas. Faço também curso de inglês no Senac.
+          Básicamente um pequeno resumo, onde tento explicar um pouco sobre mim. Conclusão do curso em Dezembro 2019.
+          Criei está single application para mostrar um pouco do meu lado profissional e também algunas preferencias
+          como pessoas.
+          </p>
         </div>
       </div>
     </div>
-  </header>
+  </div>
 </header>
