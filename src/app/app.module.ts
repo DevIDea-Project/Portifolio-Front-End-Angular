@@ -4,10 +4,13 @@ import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { MDBBootstrapModule } from 'angular-bootstrap-md';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { PortifolioModule } from './Portifolio';
 import { HomeModule } from './Home';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+/*import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from './Carousel';*/
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -16,9 +19,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     BrowserModule,
     PortifolioModule,
     HomeModule,
-    BrowserAnimationsModule,
     RouterModule,
     MDBBootstrapModule,
+    NgbModule,
     AppRoutingModule,
   ],
   providers: [],
