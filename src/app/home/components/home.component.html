@@ -59,22 +59,46 @@
       </div>
     </div>
   </div>
-  <mdb-carousel [isControls]="true" class="carousel-multi-item multi-animation" [type]="'carousel-multi-item'"
-    [animation]="'slide'">
-    <mdb-carousel-item *ngFor="let item of slides; let i = index">
-      <div class="col-md-4" [ngClass]="{'d-none d-md-block': cardIndex !== 0}"
-        *ngFor="let card of item; let cardIndex = index">
-        <mdb-card class="my-1">
-          <mdb-card-img [src]="card.img" alt="Card image cap"></mdb-card-img>
-          <mdb-card-body>
-            <mdb-card-title>
-              <h4>{{card.title}}</h4>
-            </mdb-card-title>
-            <p>{{card.description}}</p>
-            <a href="#" mdbBtn color="primary" class="waves-light" mdbWavesEffect>{{card.buttonText}}</a>
-          </mdb-card-body>
-        </mdb-card>
+
+  <section class="corpo">
+    <div id="banner" class="banner">
+
+    </div>
+    <div id="news" class="container">
+      <div class="row-text-center">
+        <h2 class="h2">Trabalhos recentes</h2>
+        <hr>
       </div>
-    </mdb-carousel-item>
-  </mdb-carousel>
+
+      <div class="row thumbnails">
+        <div class="col-md-3">
+          <img class="img" id="java1" src="assets/nodeEjS.jpg" alt="Noticia" style="cursor:pointer">
+          <h3 id="txtjava" class="h3" style="cursor:pointer">Código deste site Portifolio, lá onde trabalhei o back-end
+            e o front-end da aplicação.Usando NodeJs, Express, EJS e outras tecnologias.</h3>
+          <time class="time" id="time1">Janeiro 06, 2019</time>
+        </div>
+
+        <div class="col-md-3">
+          <img class="img" id="node" src="assets/nodinho.jpeg" alt="Noticia" style="cursor:pointer">
+          <h3 id="txtnode" class="h3" style="cursor:pointer">API - CRUD para projeto universitário. Conectando com o
+            banco de Dados Relacional, Mysql. CREAT, READ, UPDATE e DELETE</h3>
+          <time class="time" id="time2">Março 08, 2019</time>
+        </div>
+
+        <div class="col-md-3">
+          <img class="img" id="Angular" src="assets/Angular.jpg" alt="Noticia" style="cursor:pointer">
+          <h3 id="txtangular" class="h3" style="cursor:pointer">Curso de Angular na Udemy, Tela de Login. Ainda está em
+            desenvolvimento.</h3>
+          <time class="time" id="time3">Novembro 20, 2018</time>
+        </div>
+
+        <div class="col-md-3">
+          <img class="img" id="js" src="assets/javascript.png" alt="Noticia" style="cursor:pointer">
+          <h3 id="txtjs" class="h3" style="cursor:pointer">Exercicios em JavaScript que fui desenvolvendo com assuntos
+            principais sobre JS</h3>
+          <time class="time" id="time4">Janeiro 19, 2019</time>
+        </div>
+      </div>
+    </div>
+  </section>
 </header>
