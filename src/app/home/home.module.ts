@@ -6,7 +6,7 @@ import { HomeComponent } from './components';
 import { HomeService } from './services';
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeRoutingComponent } from './home-routing.component';
-
+//import { MatCardModule } from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -14,12 +14,12 @@ import { HomeRoutingComponent } from './home-routing.component';
     HomeRoutingComponent
   ],
   exports: [
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     CommonModule,
     HomeRoutingModule,
-    RouterModule
+    RouterModule,
   ],
   providers: [
     HomeService
