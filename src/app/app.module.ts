@@ -8,8 +8,6 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { PortifolioModule } from './Portifolio';
 import { HomeModule } from './Home';
-/*import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { CarouselModule } from './Carousel';*/
 
 @NgModule({
   declarations: [
