@@ -74,11 +74,12 @@ section {
 
 #cantinho{
   position: fixed;
-  top: 140px;
+  top: 95px;
+  margin-left: -80px;
 }
 
 #bruninho{
-  height: 200px;
+  height: 250px;
   width: 300px;
 }
 
