@@ -65,8 +65,26 @@ section {
   float: right;
 }
 
+/**Lateral esquerda da pagina.*/
+
+/*.container .row{
+  background: #4D6066;
+}*/
+
+
 #cantinho{
   position: fixed;
+  top: 140px;
+}
+
+#bruninho{
+  height: 200px;
+  width: 300px;
+}
+
+#perfil{
+  font-size: 20px;
+  text-align: left;
 }
 
 .header {
@@ -152,13 +170,13 @@ header .quem h1{
 
 #banner h1 {
   color: #000;
-  top: 156px;
   position: relative;
+  margin-right: 120px;
+  top: 156px;
   text-align: right;
-  font-size: 92px;
+  font-size: 50px;
   text-shadow: 2px 2px 2px rgb(0, 0, 0, .45);
   font-family: "OpenSans-Light";
-  margin-left: 14px;
 }
 
 #banner p {
@@ -169,7 +187,7 @@ header .quem h1{
   font-size: 20px;
   text-shadow: 2px 2px 2px rgb(0, 0, 0, .45);
   font-family: "OpenSans-Light";
-  margin-left: 14px;
+  margin-right: 165px;
 }
 
 
@@ -250,6 +268,7 @@ header .quem h1{
 
   head .container {
     text-align: center;
+    background: #4D6066;
   }
 
 
