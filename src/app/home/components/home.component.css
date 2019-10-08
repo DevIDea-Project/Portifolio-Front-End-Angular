@@ -27,12 +27,12 @@ section {
 }
 
 #DevLogo {
-  width: 110px;
-  height: 45px;
+  width: 85px;
+  height: 30px;
   position: fixed;
   left: 10pt;
   z-index: 100;
-  top: 10px;
+  top: 15px;
 }
 
 .btn-menu {
@@ -80,12 +80,19 @@ section {
 
 #bruninho{
   height: 250px;
-  width: 300px;
+  width: 260px;
 }
 
 #perfil{
-  font-size: 20px;
+  font-size: 16px;
   text-align: left;
+  margin-left: -20px;
+}
+#time1{
+  margin-left: -20px;
+}
+#estado{
+  margin-left: -20px;
 }
 
 .header {
@@ -96,7 +103,7 @@ section {
   left: 0;
   border-bottom: 1px solid #ccc;
   /*background: linear-gradient(120deg, #ccc, #1d252d, #1d252d, #1d252d, #ccc);*/
-  background: #000;
+  background: #353839;
   z-index: 2;
 }
 
