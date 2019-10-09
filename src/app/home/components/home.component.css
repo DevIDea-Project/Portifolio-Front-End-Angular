@@ -78,6 +78,15 @@ section {
   margin-left: -80px;
 }
 
+#linha{
+  width:70%;
+  height:0px;
+  align:right; 
+  position: relative;
+  left: 350px;
+  top: -220px;
+}
+
 #bruninho{
   height: 250px;
   width: 260px;
