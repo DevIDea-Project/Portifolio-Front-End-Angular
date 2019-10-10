@@ -80,11 +80,27 @@ section {
 
 #linha{
   width:70%;
-  height:0px;
+  height:2px;
   align:right; 
   position: relative;
   left: 350px;
   top: -220px;
+  color:#4D6066;
+}
+
+#Sobre{
+  position: relative;
+  left: -168px;
+  top: -350px;
+}
+
+#Sobre #info{
+  text-align: left;
+  position: relative;
+  font-size: 22px;
+  left: 380px;
+  color: #000; 
+  
 }
 
 #bruninho{
