@@ -99,6 +99,10 @@ section {
   position: relative;
   left: -80px;
 }
+#Sobre .H2{
+  position: relative;
+  left: -215px;
+}
 
 #Sobre #info{
   text-align: left;
