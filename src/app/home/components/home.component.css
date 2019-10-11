@@ -79,13 +79,14 @@ section {
 }
 
 #linha{
-  width:70%;
+  width:88%;
   height:2px;
   align:right; 
   position: relative;
-  left: 350px;
-  top: -220px;
+  left: 210px;
+  top: -210px;
   color:#4D6066;
+  justify-items: center;
 }
 
 #Sobre{
@@ -94,12 +95,20 @@ section {
   top: -350px;
 }
 
+#Sobre .H1{
+  position: relative;
+  left: -80px;
+}
+
 #Sobre #info{
   text-align: left;
   position: relative;
   font-size: 22px;
   left: 380px;
-  color: #000; 
+  /*color: #000; */
+  /*margin-left: auto;*/
+  margin-right: auto;
+  width: 39em
   
 }
 
